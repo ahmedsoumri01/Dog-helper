@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600&family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+body {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+button {
+  cursor: pointer;
+}
+#logo {
+  border-radius: 50%;
+  background-color: white;
+  padding: 10px;
+  margin: 5px 10px -15px 0px;
+}
+header {
+  text-align: start;
+  color: white;
+  height: 100vh;
+  background-image: url("bgs/bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header > div {
+  padding-top: 20px;
+  justify-content: space-around;
+}
+.logos {
+  padding-top: 10px;
+}
+.list > ul {
+  display: block ruby;
+  list-style-type: none;
+  font-size: 24px;
+  font-family: Basic Sans;
+  font-weight: lighter;
+}
+.list > ul > li {
+  margin: 10px;
+}
+.detial {
+  float: right;
+  max-width: 24%;
+  margin: 3% 15% 0 0;
+  padding: 10px;
+}
+.detial > h1 {
+  font-size: 54px;
+  font-weight: bold;
+}
+.btn1 {
+  margin: 55px 0px 0px 0px;
+  height: 56px;
+  width: 256px;
+  border-radius: 50px;
+  border: none;
+  background-color: white;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+/**/
+.part2 {
+  text-align: start;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 70px 100px 100px;
+}
+.part2 > div {
+  margin: 10px;
+  width: 480px;
+}
+.part2 h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.part2 h3 {
+  font-weight: lighter;
+  margin-bottom: 25px;
+  color: #545871;
+}
+.btn2 {
+  height: 56px;
+  width: 256px;
+  border-radius: 50px;
+  border: none;
+  background-color: #545871;
+  font-size: 24px;
+  font-weight: lighter;
+  color: #ffffff;
+}
+.collection {
+  display: grid;
+  grid-template-columns: repeat(2, 0fr);
+}
+.collection > img {
+  width: 256px;
+  margin: 10px;
+  border-radius: 10px;
+}
+/**/
+.part3 {
+  text-align: start;
+  display: grid;
+  grid-template-columns: repeat(2, 0fr);
+
+  background-color: #f7eceb;
+}
+.part3 img {
+  width: 736px;
+  height: 694px;
+}
+.part3 div {
+  padding: 40% 0 0 40%;
+}
+.part3 h1 {
+  font-size: 48px;
+  width: 472px;
+  margin-bottom: 50px;
+}
+.part3 p {
+  width: 415px;
+  margin-bottom: 50px;
+  color: #545871;
+}
+/**/
+.part4 {
+  padding: 70px;
+  background-color: #545871;
+}
+.part4 > h1 {
+  text-align: center;
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+}
+.part4 > div {
+  text-align: start;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.part4 img {
+  width: 160px;
+  height: 160px;
+  margin-right: 20px;
+}
+.pets_card {
+  display: flex;
+  width: 544px;
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.pets_card p {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 10px;
+  color: #545871;
+}
+/**/
+.part5 {
+  margin: 0 60px;
+  padding: 61px;
+}
+.part5 > h1 {
+  margin-bottom: 40px;
+  font-size: 48px;
+  color: #545871;
+}
+.part5 > p {
+  margin: 40px;
+}
+.prise {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 1248px;
+  margin: 0 auto;
+  height: 450px;
+}
+.card {
+  margin-right: 63px;
+  width: 352px;
+  height: 371px;
+  background-color: #fefefe;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: 1px solid #bababa;
+}
+.card h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px;
+}
+.card p {
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 20px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  color: #545871;
+}
+.card img {
+  padding: 10px;
+  background-color: #f7eceb;
+  border-radius: 50%;
+  margin-top: -40px;
+  width: 50px;
+  height: 50px;
+}
+.card h2 {
+  background-color: #e2e2e2;
+  font-size: 48px;
+  font-weight: bold;
+  padding: 30px;
+  border-radius: 0px 0px 10px 10px;
+}
+.card h3 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #9597a6;
+}
+
+/**/
+.part6 {
+  height: 500px;
+  font-size: 45px;
+  font-weight: bold;
+  background-color: #f7eceb;
+}
+.part6 h1 {
+  padding: 20px;
+  color: #2d2c2cbf;
+  padding-top: 5%;
+}
+.part6 h2 {
+  padding: 20px;
+}

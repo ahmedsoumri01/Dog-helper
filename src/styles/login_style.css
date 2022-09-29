@@ -1,0 +1,159 @@
+.login_style {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.login_side {
+  color: white;
+  background-color: gray;
+}
+.login_side h1 {
+  font-size: 48px;
+}
+.login_side .logos {
+  margin: 60px;
+}
+.login_side li {
+  margin: 58px;
+}
+.detaill_right {
+  background-color: #f7eceb;
+}
+.right {
+  margin: 30% auto;
+  width: 50%;
+}
+.detaill_right h1 {
+  margin-bottom: 30px;
+}
+input {
+  border: navajowhite;
+  border-radius: 10px;
+}
+.detaill_right input {
+  height: 56px;
+  width: 190px;
+}
+/*part 2*/
+.right_part2 {
+  background-color: #f7eceb;
+}
+.right_part2 span {
+  display: block;
+  margin: 10px 0 15px;
+}
+.detaill_right_part2 {
+  padding: 65px;
+  text-align: start;
+  padding-bottom: 20px;
+}
+.right_part2 h1 {
+  font-size: 48px;
+  margin-bottom: 70px;
+}
+.right_part2 > div > input {
+  width: 580px;
+  height: 50px;
+  margin: 20px auto;
+}
+.inptPassword {
+  display: flex;
+}
+.inptPassword > div {
+  margin: auto auto auto 0;
+}
+.inptPassword input {
+  margin: 10px auto;
+  height: 45px;
+  width: 250px;
+}
+.rules {
+  display: flex;
+}
+.rules input {
+  margin: 0 20px;
+}
+.footer {
+  height: 50px;
+  text-align: start;
+  padding: 17px 70px 15px 80px;
+}
+.navig_footer {
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-between;
+  background: white;
+}
+/**/
+.buttom_part3 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 90%;
+}
+.footer_btn {
+  width: 160px;
+  height: 56px;
+  border-radius: 30px;
+  background-color: #434a85c7;
+  border: solid 1px;
+}
+
+.buttom_part3 input {
+  height: 35px;
+}
+/**/
+.steps {
+  text-align: start;
+  margin: 10px auto auto 40%;
+}
+.steps h1 {
+  font-size: 24px;
+  margin: 25px auto 25px auto;
+}
+/**/
+.options {
+  background: white;
+  border: solid 1px #e1e1e3;
+  border-radius: 30px;
+  width: 100%;
+  margin: 5px;
+  text-align: center;
+}
+.options:hover {
+  background-color: #ebd0ce;
+}
+
+.options img {
+  margin-top: 5px;
+  width: 85px;
+  border-radius: 50%;
+}
+.detaill_right_part2 > p {
+  margin-top: 22px;
+  font-size: 24px;
+}
+/**/
+.part5_select {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  border-radius: 20px;
+}
+.part5_select p {
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 1px #d2d2d2;
+  margin: 10px;
+}
+.part5_select p:hover {
+  background-color: #ebd0ce;
+}
+/* 6 */
+.part6 span {
+  font-size: 15px;
+  font-weight: lighter;
+}
+.part6_fav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
